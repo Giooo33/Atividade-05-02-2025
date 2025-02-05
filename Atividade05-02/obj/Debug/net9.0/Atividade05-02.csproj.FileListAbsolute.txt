@@ -1,0 +1,15 @@
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\bin\Debug\net9.0\Atividade05-02.exe
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\bin\Debug\net9.0\Atividade05-02.deps.json
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\bin\Debug\net9.0\Atividade05-02.runtimeconfig.json
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\bin\Debug\net9.0\Atividade05-02.dll
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\bin\Debug\net9.0\Atividade05-02.pdb
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.AssemblyInfoInputs.cache
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.AssemblyInfo.cs
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.dll
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\refint\Atividade05-02.dll
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.pdb
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.genruntimeconfig.cache
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\ref\Atividade05-02.dll
+C:\Users\Aluno\Giovana 3º D.S\Atividade05-02\obj\Debug\net9.0\Atividade05-02.sourcelink.json
