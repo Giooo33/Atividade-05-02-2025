@@ -1,10 +1,10 @@
-﻿class Program{
+class Program{
 
     static void Main(string[] args){
 
         //Exercício 01
 
-        /*System.Console.WriteLine("Insira um número: ");
+        System.Console.WriteLine("Insira um número: ");
         var numero1 = int.Parse(Console.ReadLine());
         System.Console.WriteLine("Insira o segundo número: ");
         var numero2 = int.Parse(Console.ReadLine());
@@ -17,11 +17,11 @@
         System.Console.WriteLine($"Soma: {soma}");
         System.Console.WriteLine($"Subtração: {sub}");
         System.Console.WriteLine($"Multiplicação {mult}");
-        System.Console.WriteLine($"Divisão: {div}"); */
+        System.Console.WriteLine($"Divisão: {div}"); 
 
         //Exercício 02
 
-        /*System.Console.WriteLine("Insira uma valor: ");
+        System.Console.WriteLine("Insira uma valor: ");
         float valor = float.Parse(Console.ReadLine());
 
         double desconto = valor - (valor * 0.1);
@@ -30,7 +30,7 @@
 
         //Exercício 03
 
-        /*for(int numero3 = 0; numero3 < 21; numero3 ++ ){
+        for(int numero3 = 0; numero3 < 21; numero3 ++ ){
 
             if(numero3 % 2 == 0){
 
@@ -38,11 +38,11 @@
 
             }
 
-        }*/
+        }
 
         //Exercício 04
 
-        /*System.Console.WriteLine("Insira um número: ");
+        System.Console.WriteLine("Insira um número: ");
         var numero4 = int.Parse(Console.ReadLine());
         System.Console.WriteLine("Insira o segundo número: ");
         var numero5 = int.Parse(Console.ReadLine());
@@ -55,11 +55,11 @@
 
         }
 
-        System.Console.WriteLine($"A soma dos números no intervalo do número {numero4} e número {numero5} é {soma1}");*/
+        System.Console.WriteLine($"A soma dos números no intervalo do número {numero4} e número {numero5} é {soma1}");
 
         //Exercício 05
 
-         /*int[] vetor = new int[5];
+         int[] vetor = new int[5];
 
          for(int i1 = 0; i1 < 5; i1 ++){
 
@@ -73,11 +73,11 @@
 
             System.Console.WriteLine($"{vetor[i2]}");
 
-         }*/
+         }
 
          //Exercício 06
 
-         /*int[] vetor1  = new int[5];
+         int[] vetor1  = new int[5];
 
          for(int i3 = 0; i3 < 5; i3 ++){
 
@@ -102,11 +102,11 @@
 
                 System.Console.WriteLine($"Este número não esta na posição {i4 + 1} do vetor");
             }
-         }*/
+         }
 
          //Exercício 07
 
-         /*System.Console.WriteLine("Insira a 1ª nota: ");
+         System.Console.WriteLine("Insira a 1ª nota: ");
          float numero9 = float.Parse(Console.ReadLine());
          System.Console.WriteLine("Insira a 2ª nota: ");
          float numero10 = float.Parse(Console.ReadLine());
@@ -115,11 +115,11 @@
 
          var media = (numero9 + numero10 + numero11) / 3;
 
-         System.Console.WriteLine($"A média dessas notas é {media}");*/
+         System.Console.WriteLine($"A média dessas notas é {media}");
 
          //Exercício 08
 
-        /* System.Console.WriteLine("Insira um número: ");
+         System.Console.WriteLine("Insira um número: ");
          var numero12 = int.Parse(Console.ReadLine());
 
          for(int i5 = 2; i5 < numero12; i5 ++){
@@ -132,7 +132,7 @@
             }
         }
 
-        System.Console.WriteLine($"O número {numero12} é primo.");*/
+        System.Console.WriteLine($"O número {numero12} é primo.");
 
         //Exercício 09
 
@@ -141,8 +141,51 @@
         System.Console.WriteLine("Insira o modelo do carro: ");
         var modelo = (Console.ReadLine());
         System.Console.WriteLine("Insira o ano do carro: ");
-        var ano = (Console.ReadLine);
+        var ano = int.Parse(Console.ReadLine());
 
-        
-}
+        System.Console.WriteLine($"{marca} {modelo} - {ano}");
+
+        //Exercício 10
+
+        System.Console.WriteLine("Insira um número: ");
+        var numero13 = int.Parse(Console.ReadLine());
+        System.Console.WriteLine("Insira o segundo número: ");
+        var numero14 = int.Parse(Console.ReadLine());
+
+        var soma = numero13 + numero14;
+        var sub = numero13 - numero14;
+        var mult = numero13 * numero14;
+        double div = numero13 / numero14;
+
+        System.Console.WriteLine("Qual calculo deseja realizar, insira;");
+        System.Console.WriteLine("1 - Soma");
+        System.Console.WriteLine("2 - Subtração");
+        System.Console.WriteLine("3 - Multiplicação");
+        System.Console.WriteLine("4 - Divisão");
+        var numero15 = int.Parse(Console.ReadLine());
+
+        if(numero15 == 1){
+
+        System.Console.WriteLine($"Soma: {soma}");
+            
+        }
+
+        else if(numero15 == 2){
+
+        System.Console.WriteLine($"Subtração: {sub}");
+
+        }
+
+        else if(numero15 == 3){
+
+        System.Console.WriteLine($"Multiplicação {mult}");
+
+        }
+
+        else{
+
+        System.Console.WriteLine($"Divisão: {div}");
+
+        } 
+    }   
 }
